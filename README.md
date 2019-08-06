@@ -25,21 +25,12 @@ https://docs.ansible.com/ansible/latest/network/getting_started/basic_concepts.h
 Ansible itself has none other than SSH dependency, which is by default a OpenSSH program ship with any major Linux distribution. At abstract, Ansible is just remote invocation of commands (tasks) over SSH. And, therefore, [Ansible is agentless architecture](https://en.wikipedia.org/wiki/Ansible_%28software%29) by nature.
 
 
----
+## prerequisite
 
-All tutes here are using VirtualBox simple cluster setup define as: 
+All tutes here are using VirtualBox simple cluster setup as follows: 
 https://github.com/victorskl/vagrant-tute/tree/master/01-simple-cluster
 
 ```
 git clone https://github.com/victorskl/vagrant-tute.git
 cd 01-simple-cluster && vagrant up
-
-(append your pub key)
-
-vagrant ssh master
-  vi ~/.ssh/authorized_keys
-vagrant ssh node1
-  vi ~/.ssh/authorized_keys
-vagrant ssh node2
-  vi ~/.ssh/authorized_keys  
 ```
