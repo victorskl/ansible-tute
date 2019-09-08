@@ -5,6 +5,8 @@ Ansible tutorials
 
 ```
 brew install ansible
+(or)
+pip3 install ansible --user
 ```
 
 How Ansible Work
